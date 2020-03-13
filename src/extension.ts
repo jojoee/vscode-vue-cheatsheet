@@ -30,7 +30,15 @@ export function activate (context: vscode.ExtensionContext) {
     ])
   })
 
+  const vue3Disposable = vscode.commands.registerCommand('extension.openVue3Pdf', () => {
+    openImageWebview('Vue Cheatsheet Vue3', assetPath, [
+      'Vue-3-Cheat-Sheet-1.jpg',
+      'Vue-3-Cheat-Sheet-2.jpg'
+    ])
+  })
+
   context.subscriptions.push(vueDisposable)
+  context.subscriptions.push(vue3Disposable)
 }
 
 export function deactivate () {}

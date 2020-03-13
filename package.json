@@ -12,6 +12,7 @@
   ],
   "activationEvents": [
     "onCommand:extension.openVuePdf",
+    "onCommand:extension.openVue3Pdf",
   ],
   "main": "./out/extension.js",
   "license": "MIT",
@@ -21,6 +22,10 @@
       {
         "command": "extension.openVuePdf",
         "title": "Vue Cheatsheet: Vue"
+      },
+      {
+        "command": "extension.openVue3Pdf",
+        "title": "Vue Cheatsheet: Vue3"
       }
     ]
   },
