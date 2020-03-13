@@ -2,9 +2,9 @@
   "name": "vue-cheatsheet",
   "displayName": "Vue Cheatsheet",
   "description": "Open Vue Cheatsheet inside the editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.26.0"
   },
   "categories": [
     "Other",
