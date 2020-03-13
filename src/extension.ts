@@ -37,8 +37,17 @@ export function activate (context: vscode.ExtensionContext) {
     ])
   })
 
+  const nuxtDisposable = vscode.commands.registerCommand('extension.openNuxtjsPdf', () => {
+    openImageWebview('Vue Cheatsheet Nuxtjs', assetPath, [
+      'Nuxtjs-Cheat-Sheet-1.jpg',
+      'Nuxtjs-Cheat-Sheet-2.jpg',
+      'Nuxtjs-Cheat-Sheet-3.jpg'
+    ])
+  })
+
   context.subscriptions.push(vueDisposable)
   context.subscriptions.push(vue3Disposable)
+  context.subscriptions.push(nuxtDisposable)
 }
 
 export function deactivate () {}
