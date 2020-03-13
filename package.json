@@ -11,7 +11,7 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "onCommand:extension.helloWorld"
+    "onCommand:extension.openVuePdf",
   ],
   "main": "./out/extension.js",
   "license": "MIT",
@@ -19,8 +19,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
+        "command": "extension.openVuePdf",
+        "title": "Vue Cheatsheet: Vue"
       }
     ]
   },
