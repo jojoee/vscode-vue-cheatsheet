@@ -10,7 +10,3 @@ out
 
 # misc
 .pdf
-
-# lock
-package-lock.json
-yarn.lock
